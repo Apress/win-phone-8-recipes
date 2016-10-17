@@ -1,0 +1,48 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="MyEmergencyInfo.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--Data context is set to sample data above and LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="MY EMERGENCY INFO" Style="{StaticResource PhoneTextNormalStyle}"/>
+       </StackPanel>
+
+        <!--ContentPanel contains LongListSelector and LongListSelector ItemTemplate. Place additional content here-->
+        <StackPanel x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <TextBlock Text="Contact Name" Margin="10 0" />
+            <TextBox Text="{Binding EmergencyInfoData.ContactName, Mode=TwoWay}" />
+            <TextBlock Text="Contact Phone Number" Margin="10 0" />
+            <TextBox InputScope="TelephoneNumber" Text="{Binding EmergencyInfoData.ContactPhoneNumber, Mode=TwoWay}" />
+            <TextBlock Text="Allergies" Margin="10 0" />
+            <TextBox Text="{Binding EmergencyInfoData.Allergies, Mode=TwoWay}" />
+            <TextBlock Text="Medications" Margin="10 0" />
+            <TextBox Text="{Binding EmergencyInfoData.Medications, Mode=TwoWay}" />
+        </StackPanel>       
+    </Grid>
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="False">
+            <shell:ApplicationBarIconButton IconUri="/Assets/AppBar/save.png" 
+                                            Text="save" 
+                                            Click="ApplicationBarIconButton_Click_1" />
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+</phone:PhoneApplicationPage>

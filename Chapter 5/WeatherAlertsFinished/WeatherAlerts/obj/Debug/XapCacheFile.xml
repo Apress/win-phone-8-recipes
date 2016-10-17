@@ -1,0 +1,14 @@
+﻿<xapCache source="D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts\Bin\Debug\WeatherAlerts_Debug_AnyCPU.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="4/6/2013 6:31:46 PM">
+  <file source="D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts\obj\Debug\WeatherAlerts.dll" archivePath="WeatherAlerts.dll" lastWriteTime="4/6/2013 6:31:44 PM" />
+  <file source="D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="3/10/2013 6:02:13 PM" />
+  <file source="D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="3/10/2013 6:02:13 PM" />
+  <file source="D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="3/10/2013 6:02:13 PM" />
+  <file source="D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="3/10/2013 6:02:13 PM" />
+  <file source="D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="3/10/2013 6:02:13 PM" />
+  <file source="D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="4/6/2013 5:52:20 PM" />
+  <file source="D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="3/10/2013 6:02:13 PM" />
+  <file source="D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="3/10/2013 6:02:13 PM" />
+  <file source="D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts.Agent\Bin\Debug\WeatherAlerts.Agent.dll" archivePath="WeatherAlerts.Agent.dll" lastWriteTime="4/6/2013 6:31:43 PM" />
+  <file source="D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts.DataProvider\Bin\Debug\WeatherAlerts.DataProvider.dll" archivePath="WeatherAlerts.DataProvider.dll" lastWriteTime="4/6/2013 6:08:02 PM" />
+  <file source="D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="4/6/2013 6:01:50 PM" />
+</xapCache>

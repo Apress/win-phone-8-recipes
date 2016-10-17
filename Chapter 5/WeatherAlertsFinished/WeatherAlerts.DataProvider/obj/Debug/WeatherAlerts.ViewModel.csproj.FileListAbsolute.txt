@@ -1,0 +1,4 @@
+D:\Apress\APress\Chapter 5\Source\WeatherAlerts\WeatherAlerts.ViewModel\Bin\Debug\WeatherAlerts.ViewModel.dll
+D:\Apress\APress\Chapter 5\Source\WeatherAlerts\WeatherAlerts.ViewModel\Bin\Debug\WeatherAlerts.ViewModel.pdb
+D:\Apress\APress\Chapter 5\Source\WeatherAlerts\WeatherAlerts.ViewModel\obj\Debug\WeatherAlerts.ViewModel.dll
+D:\Apress\APress\Chapter 5\Source\WeatherAlerts\WeatherAlerts.ViewModel\obj\Debug\WeatherAlerts.ViewModel.pdb

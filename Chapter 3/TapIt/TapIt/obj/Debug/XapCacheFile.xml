@@ -1,0 +1,14 @@
+﻿<xapCache source="C:\Users\Lori\Documents\Apress\Chapter 3\TapIt\TapIt\Bin\Debug\PhoneApp1_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2013-05-21 11:45:19 PM">
+  <file source="C:\Users\Lori\Documents\Apress\Chapter 3\TapIt\TapIt\obj\Debug\PhoneApp1.dll" archivePath="PhoneApp1.dll" lastWriteTime="2013-05-21 11:45:19 PM" />
+  <file source="C:\Users\Lori\Documents\Apress\Chapter 3\TapIt\TapIt\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="2013-02-20 3:53:50 PM" />
+  <file source="C:\Users\Lori\Documents\Apress\Chapter 3\TapIt\TapIt\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="2013-02-20 3:53:50 PM" />
+  <file source="C:\Users\Lori\Documents\Apress\Chapter 3\TapIt\TapIt\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="2013-02-20 3:53:50 PM" />
+  <file source="C:\Users\Lori\Documents\Apress\Chapter 3\TapIt\TapIt\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="2013-02-20 3:53:50 PM" />
+  <file source="C:\Users\Lori\Documents\Apress\Chapter 3\TapIt\TapIt\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="2013-02-20 3:53:50 PM" />
+  <file source="C:\Users\Lori\Documents\Apress\Chapter 3\TapIt\TapIt\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2013-02-21 10:53:18 PM" />
+  <file source="C:\Users\Lori\Documents\Apress\Chapter 3\TapIt\TapIt\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="2013-02-20 3:53:50 PM" />
+  <file source="C:\Users\Lori\Documents\Apress\Chapter 3\TapIt\TapIt\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="2013-02-20 3:53:50 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Libraries\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="2013-03-03 6:40:38 PM" />
+  <file source="C:\Users\Lori\Documents\Apress\Chapter 3\TapIt\packages\WPtoolkit.4.2012.10.30\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="2013-02-20 7:45:30 PM" />
+  <file source="C:\Users\Lori\Documents\Apress\Chapter 3\TapIt\TapIt\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2013-02-20 3:54:22 PM" />
+</xapCache>

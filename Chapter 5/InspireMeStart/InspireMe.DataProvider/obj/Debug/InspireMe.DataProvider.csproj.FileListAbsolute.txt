@@ -1,0 +1,4 @@
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe.DataProvider\Bin\Debug\InspireMe.DataProvider.dll
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe.DataProvider\Bin\Debug\InspireMe.DataProvider.pdb
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe.DataProvider\obj\Debug\InspireMe.DataProvider.dll
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe.DataProvider\obj\Debug\InspireMe.DataProvider.pdb

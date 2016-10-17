@@ -1,0 +1,39 @@
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe\obj\Debug\InspireMe.pdb
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe\Bin\Debug\Assets\AppBar\feature.settings.png
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe\Bin\Debug\Assets\ApplicationIcon.png
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe\Bin\Debug\InspireMe.dll
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe\Bin\Debug\InspireMe.pdb
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe\Bin\Debug\AppManifest.xaml
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe\Bin\Debug\InspireMe_Debug_AnyCPU.xap
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe\obj\Debug\App.g.cs
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe\obj\Debug\MainPage.g.cs
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe\obj\Debug\InspireMe.g.resources
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe\obj\Debug\InspireMe.Resources.AppResources.resources
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe\obj\Debug\InspireMe.csproj.GenerateResource.Cache
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe\obj\Debug\InspireMe.dll
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe\obj\Debug\XapCacheFile.xml
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe\Bin\Debug\InspireMe.DataProvider.dll
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe\Bin\Debug\InspireMe.DataProvider.pdb
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe\obj\Debug\InspireMe.csprojResolveAssemblyReference.cache
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe\Bin\Debug\Assets\AppBar\appbar.pin.png
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe\Bin\Debug\Assets\AppBar\appbar.pin.remove.png
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeStart\InspireMe\Bin\Debug\Assets\AppBar\appbar.pin.png
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeStart\InspireMe\Bin\Debug\Assets\AppBar\appbar.pin.remove.png
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeStart\InspireMe\Bin\Debug\Assets\AppBar\feature.settings.png
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeStart\InspireMe\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeStart\InspireMe\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeStart\InspireMe\Bin\Debug\InspireMe.dll
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeStart\InspireMe\Bin\Debug\InspireMe.pdb
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeStart\InspireMe\Bin\Debug\AppManifest.xaml
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeStart\InspireMe\Bin\Debug\InspireMe_Debug_AnyCPU.xap
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeStart\InspireMe\Bin\Debug\InspireMe.DataProvider.dll
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeStart\InspireMe\Bin\Debug\InspireMe.DataProvider.pdb
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeStart\InspireMe\obj\Debug\InspireMe.csprojResolveAssemblyReference.cache
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeStart\InspireMe\obj\Debug\App.g.cs
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeStart\InspireMe\obj\Debug\MainPage.g.cs
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeStart\InspireMe\obj\Debug\InspireMe.g.resources
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeStart\InspireMe\obj\Debug\InspireMe.Resources.AppResources.resources
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeStart\InspireMe\obj\Debug\InspireMe.csproj.GenerateResource.Cache
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeStart\InspireMe\obj\Debug\InspireMe.dll
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeStart\InspireMe\obj\Debug\InspireMe.pdb
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeStart\InspireMe\obj\Debug\XapCacheFile.xml

@@ -1,0 +1,245 @@
+﻿<local:MainViewModel
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:model="clr-namespace:TheLongListSelector.Models"
+	xmlns:local="clr-namespace:TheLongListSelector.ViewModel">
+  <local:MainViewModel.Countries>
+    <model:Country EnglishName="Afghanistan" FrenchName="Afghanistan" LocalName="Afghanestan" WorldRegion="South-Central Asia"/>
+    <model:Country EnglishName="Albania" FrenchName="Albanie" LocalName="Shqiperia" WorldRegion="Southern Europe"/>
+    <model:Country EnglishName="Algeria" FrenchName="Algérie" LocalName="Al Jaza'ir" WorldRegion="Northern Africa"/>
+    <model:Country EnglishName="American Samoa" FrenchName="Samoa Américaines" LocalName="American Samoa" WorldRegion="Polynesia, Oceania"/>
+    <model:Country EnglishName="Andorra" FrenchName="Andorre" LocalName="Andorra" WorldRegion="Southern Europe"/>
+    <model:Country EnglishName="Angola" FrenchName="Angola" LocalName="Angola" WorldRegion="Central Africa"/>
+    <model:Country EnglishName="Anguilla" FrenchName="Anguilla" LocalName="Anguilla" WorldRegion="Leeward Islands, Caribbean"/>
+    <model:Country EnglishName="Antarctica" FrenchName="Antarctique" LocalName="Antarctica" WorldRegion="Antarctica"/>
+    <model:Country EnglishName="Antigua and Barbuda" FrenchName="Antigua-et-Barbuda" LocalName="Antigua and Barbuda" WorldRegion="Leeward Islands, Caribbean"/>
+    <model:Country EnglishName="Argentina" FrenchName="Argentine" LocalName="Argentina" WorldRegion="Southern South America"/>
+    <model:Country EnglishName="Armenia" FrenchName="Arménie" LocalName="Hayastan" WorldRegion="Western Asia"/>
+    <model:Country EnglishName="Aruba" FrenchName="Aruba" LocalName="Aruba" WorldRegion="Leeward Islands, Caribbean"/>
+    <model:Country EnglishName="Australia" FrenchName="Australie" LocalName="Australia" WorldRegion="Australia"/>
+    <model:Country EnglishName="Austria" FrenchName="Autriche" LocalName="Österreich" WorldRegion="Western Europe"/>
+    <model:Country EnglishName="Azerbaijan" FrenchName="Azerbaïdjan" LocalName="Azarbaycan" WorldRegion="Western Asia"/>
+    <model:Country EnglishName="Bahamas" FrenchName="Bahamas" LocalName="Bahamas" WorldRegion="Caribbean"/>
+    <model:Country EnglishName="Bahrain" FrenchName="Bahreïn" LocalName="Al Bahrayn" WorldRegion="Arabian Peninsula, Middle East"/>
+    <model:Country EnglishName="Bangladesh" FrenchName="Bangladesh" LocalName="Bangladesh" WorldRegion="South-Central Asia"/>
+    <model:Country EnglishName="Barbados" FrenchName="Barbade" LocalName="Barbados" WorldRegion="Lesser Antilles, Caribbean"/>
+    <model:Country EnglishName="Belarus" FrenchName="Bélarus" LocalName="Byelarus" WorldRegion="Eastern Europe"/>
+    <model:Country EnglishName="Belgium" FrenchName="Belgique" LocalName="Belgique/Belgie" WorldRegion="Western Europe"/>
+    <model:Country EnglishName="Belize" FrenchName="Belize" LocalName="Belize" WorldRegion="Central America"/>
+    <model:Country EnglishName="Benin" FrenchName="Bénin" LocalName="Benin" WorldRegion="West Africa"/>
+    <model:Country EnglishName="Bermuda" FrenchName="Bermudes" LocalName="Bermuda" WorldRegion="North America"/>
+    <model:Country EnglishName="Bhutan" FrenchName="Bhoutan" LocalName="Bhutan" WorldRegion="South-Central Asia"/>
+    <model:Country EnglishName="Bolivia" FrenchName="Bolivie" LocalName="Bolivia" WorldRegion="Central South America"/>
+    <model:Country EnglishName="Bosnia and Herzegovina" FrenchName="Bosnie-Herzégovine" LocalName="Bosna i Hercegovina" WorldRegion="Southern Europe"/>
+    <model:Country EnglishName="Botswana" FrenchName="Botswana" LocalName="Botswana" WorldRegion="Southern Africa"/>
+    <model:Country EnglishName="Brazil" FrenchName="Brésil" LocalName="Brasil" WorldRegion="Central Eastern South America"/>
+    <model:Country EnglishName="Brunei Darussalam" FrenchName="Brunéi Darussalam" LocalName="Negara Brunei Darussalam" WorldRegion="Southeast Asia"/>
+    <model:Country EnglishName="Bulgaria" FrenchName="Bulgarie" LocalName="Bulgaria" WorldRegion="Eastern Europe"/>
+    <model:Country EnglishName="Burkina Faso" FrenchName="Burkina Faso" LocalName="Burkina Faso" WorldRegion="Western Africa"/>
+    <model:Country EnglishName="Burundi" FrenchName="Burundi" LocalName="Burundi" WorldRegion="Eastern Africa, African Great Lakes"/>
+    <model:Country EnglishName="Cambodia" FrenchName="Cambodge" LocalName="Kampuchea" WorldRegion="South-East Asia"/>
+    <model:Country EnglishName="Cameroon" FrenchName="Cameroun" LocalName="Cameroon" WorldRegion="Central Africa"/>
+    <model:Country EnglishName="Canada" FrenchName="Canada" LocalName="Canada" WorldRegion="North North America"/>
+    <model:Country EnglishName="Cape Verde" FrenchName="Cap-Vert" LocalName="Cabo Verde" WorldRegion="Western Africa"/>
+    <model:Country EnglishName="Cayman Islands" FrenchName="Caïmanes, Îles" LocalName="Cayman Islands" WorldRegion="Greater Antilles, Caribbean"/>
+    <model:Country EnglishName="Central African Republic" FrenchName="Centrafricaine, République" LocalName="Republique Centrafricaine" WorldRegion="Central Africa"/>
+    <model:Country EnglishName="Chad" FrenchName="Tchad" LocalName="Tchad" WorldRegion="Central Africa"/>
+    <model:Country EnglishName="Chile" FrenchName="Chili" LocalName="Chile" WorldRegion="Western South America"/>
+    <model:Country EnglishName="China" FrenchName="Chine" LocalName="Zhong Guo" WorldRegion="Eastern Asia"/>
+    <model:Country EnglishName="Christmas Island" FrenchName="Île Christmas" LocalName="Christmas Island" WorldRegion="Southeast Asia"/>
+    <model:Country EnglishName="Cocos (Keeling) Islands" FrenchName="Îles Cocos (Keeling)" LocalName="Cocos (Keeling) Islands" WorldRegion="South-East Asia, Australia"/>
+    <model:Country EnglishName="Colombia" FrenchName="Colombie" LocalName="Colombia" WorldRegion="North West South America"/>
+    <model:Country EnglishName="Comoros" FrenchName="Comores" LocalName="Comores" WorldRegion="Eastern Africa"/>
+    <model:Country EnglishName="Democratic Republic of the Congo (Kinshasa)" FrenchName="Congo, La République Démocratique du" LocalName="République Démocratique du Congo" WorldRegion="Central Africa"/>
+    <model:Country EnglishName="Congo, Republic of (Brazzaville)" FrenchName="République du Congo" LocalName="République du Congo" WorldRegion="Central Africa"/>
+    <model:Country EnglishName="Cook Islands" FrenchName="Îles Cook" LocalName="Cook Islands" WorldRegion="Polynesia, Oceania"/>
+    <model:Country EnglishName="Costa Rica" FrenchName="Costa Rica" LocalName="Costa Rica" WorldRegion="Central America"/>
+    <model:Country EnglishName="Ivory Coast" FrenchName="Côte D'ivoire" LocalName="Cote d'Ivoire" WorldRegion="Western Africa"/>
+    <model:Country EnglishName="Croatia" FrenchName="Croatie" LocalName="Hrvatska" WorldRegion="Southern Europe"/>
+    <model:Country EnglishName="Cuba" FrenchName="Cuba" LocalName="Cuba" WorldRegion="Greater Antilles, Caribbean"/>
+    <model:Country EnglishName="Cyprus" FrenchName="Chypre" LocalName="Kibris, Kypros" WorldRegion="Mediterranean, Western Asia"/>
+    <model:Country EnglishName="Czech Republic" FrenchName="République Tchèque" LocalName="Ceska Republika" WorldRegion="Eastern Europe"/>
+    <model:Country EnglishName="Denmark" FrenchName="Danemark" LocalName="Danmark" WorldRegion="Northern Europe"/>
+    <model:Country EnglishName="Djibouti" FrenchName="Djibouti" LocalName="Djibouti" WorldRegion="Eastern Africa"/>
+    <model:Country EnglishName="Dominica" FrenchName="Dominique" LocalName="Dominica" WorldRegion="Lesser Antilles, Caribbean"/>
+    <model:Country EnglishName="Dominican Republic" FrenchName="Dominicaine, République" LocalName="Dominicana, Republica" WorldRegion="Greater Antilles, Caribbean"/>
+    <model:Country EnglishName="East Timor (Timor-Leste)" FrenchName="Timor-Leste (Timor Oriental)" LocalName="Timor" WorldRegion="South-East Asia"/>
+    <model:Country EnglishName="Ecuador" FrenchName="Équateur" LocalName="Ecuador" WorldRegion="North West South America"/>
+    <model:Country EnglishName="Egypt" FrenchName="Égypte" LocalName="Misr" WorldRegion="Africa, Middle East"/>
+    <model:Country EnglishName="El Salvador" FrenchName="El Salvador" LocalName="El Salvador" WorldRegion="Central America"/>
+    <model:Country EnglishName="Equatorial Guinea" FrenchName="Guinée Équatoriale" LocalName="Guinea Ecuatorial" WorldRegion="Central Africa"/>
+    <model:Country EnglishName="Eritrea" FrenchName="Érythrée" LocalName="Hagere Ertra" WorldRegion="Eastern Africa"/>
+    <model:Country EnglishName="Estonia" FrenchName="Estonie" LocalName="Eesti Vabariik" WorldRegion="Northern Europe"/>
+    <model:Country EnglishName="Ethiopia" FrenchName="Éthiopie" LocalName="Ityop'iya" WorldRegion="Eastern Africa"/>
+    <model:Country EnglishName="Falkland Islands" FrenchName="Falkland, Îles (Malvinas)" LocalName="Islas Malvinas" WorldRegion="Southern South America"/>
+    <model:Country EnglishName="Faroe Islands" FrenchName="Îles Féroé" LocalName="Foroyar" WorldRegion="Northern Europe"/>
+    <model:Country EnglishName="Fiji" FrenchName="Fidji" LocalName="Fiji" WorldRegion="Melanesia, Oceania"/>
+    <model:Country EnglishName="Finland" FrenchName="Finlande" LocalName="Suomen Tasavalta" WorldRegion="Northern Europe"/>
+    <model:Country EnglishName="France" FrenchName="France" LocalName="France" WorldRegion="Western Europe"/>
+    <model:Country EnglishName="French Guiana" FrenchName="Guyane Française" LocalName="Guyane" WorldRegion="Northern South America"/>
+    <model:Country EnglishName="French Polynesia" FrenchName="Polynésie Française" LocalName="Polynésie Française" WorldRegion="Polynesia, Oceania"/>
+    <model:Country EnglishName="French Southern Territories" FrenchName="Terres Australes Françaises" LocalName="Terres Australes et Antarctiques Françaises" WorldRegion="Southern South America, Antarctic"/>
+    <model:Country EnglishName="Gabon" FrenchName="Gabon" LocalName="Gabon" WorldRegion="Central Africa"/>
+    <model:Country EnglishName="Gambia" FrenchName="Gambie" LocalName="The Gambia" WorldRegion="Western Africa"/>
+    <model:Country EnglishName="Georgia" FrenchName="Géorgie" LocalName="Sak'art'velo" WorldRegion="Western Asia"/>
+    <model:Country EnglishName="Germany" FrenchName="Allemagne" LocalName="Deutschland" WorldRegion="Western Europe"/>
+    <model:Country EnglishName="Ghana" FrenchName="Ghana" LocalName="Ghana" WorldRegion="Western Africa"/>
+    <model:Country EnglishName="Gibraltar" FrenchName="Gibraltar" LocalName="Gibraltar" WorldRegion="Southern Europe"/>
+    <model:Country EnglishName="Great Britain" FrenchName="Grande-Bretagne" LocalName="Great Britain" WorldRegion="Northern Europe"/>
+    <model:Country EnglishName="Greece" FrenchName="Grèce" LocalName="Ellas or Ellada" WorldRegion="Southern Europe"/>
+    <model:Country EnglishName="Greenland" FrenchName="Groenland" LocalName="Kalaallit Nunaat" WorldRegion="North America"/>
+    <model:Country EnglishName="Grenada" FrenchName="Grenade" LocalName="Grenada" WorldRegion="Lesser Antilles, Caribbean"/>
+    <model:Country EnglishName="Guadeloupe" FrenchName="Guadeloupe" LocalName="Guadeloupe" WorldRegion="Lesser Antilles, Caribbean"/>
+    <model:Country EnglishName="Guam" FrenchName="Guam" LocalName="Guam" WorldRegion="Micronesia, Oceania"/>
+    <model:Country EnglishName="Guatemala" FrenchName="Guatemala" LocalName="Guatemala" WorldRegion="Central America"/>
+    <model:Country EnglishName="Guinea" FrenchName="Guinéee" LocalName="Guinee" WorldRegion="Western Africa"/>
+    <model:Country EnglishName="Guinea-Bissau" FrenchName="Guinée-Bissau" LocalName="Guine-Bissau" WorldRegion="Western Africa"/>
+    <model:Country EnglishName="Guyana" FrenchName="Guyana" LocalName="Guyana" WorldRegion="North Eastern South America"/>
+    <model:Country EnglishName="Haiti" FrenchName="Haïti" LocalName="Haiti" WorldRegion="Greater Antilles, Caribbean"/>
+    <model:Country EnglishName="Holy See" FrenchName="Saint-Siège (État de la Cité du Vatican)" LocalName="Status Civitatis Vaticanæ" WorldRegion="Southern Europe within Italy"/>
+    <model:Country EnglishName="Honduras" FrenchName="Honduras" LocalName="Honduras" WorldRegion="Central America"/>
+    <model:Country EnglishName="Hong Kong" FrenchName="Hong-Kong" LocalName="Xianggang" WorldRegion="Eastern Asia"/>
+    <model:Country EnglishName="Hungary" FrenchName="Hongrie" LocalName="Magyarorszag" WorldRegion="Eastern Europe"/>
+    <model:Country EnglishName="Iceland" FrenchName="Islande" LocalName="Lyoveldio Island" WorldRegion="Northern Europe"/>
+    <model:Country EnglishName="India" FrenchName="Inde" LocalName="Bharat" WorldRegion="South-Central Asia"/>
+    <model:Country EnglishName="Indonesia" FrenchName="Indonésie" LocalName="Indonesia" WorldRegion="Maritime South-East Asia"/>
+    <model:Country EnglishName="Iran (Islamic Republic of)" FrenchName="République Islamique d' Iran" LocalName="Iran" WorldRegion="South-Central Asia"/>
+    <model:Country EnglishName="Iraq" FrenchName="Iraq" LocalName="Iraq" WorldRegion="Middle East, Western Asia"/>
+    <model:Country EnglishName="Ireland" FrenchName="Irlande" LocalName="Éire" WorldRegion="Northern Europe"/>
+    <model:Country EnglishName="Israel" FrenchName="Israël" LocalName="Yisra'el" WorldRegion="Middle East, Western Asia"/>
+    <model:Country EnglishName="Italy" FrenchName="Italie" LocalName="Italia" WorldRegion="Southern Europe"/>
+    <model:Country EnglishName="Jamaica" FrenchName="Jamaïque" LocalName="Jamaica" WorldRegion="Greater Antilles, Caribbean"/>
+    <model:Country EnglishName="Japan" FrenchName="Japon" LocalName="Nippon" WorldRegion="Eastern Asia"/>
+    <model:Country EnglishName="Jordan" FrenchName="Jordanie" LocalName="Al Urdun" WorldRegion="Middle East, Western Asia"/>
+    <model:Country EnglishName="Kazakhstan" FrenchName="Kazakstan" LocalName="Qazaqstan" WorldRegion="Central Asia"/>
+    <model:Country EnglishName="Kenya" FrenchName="Kenya" LocalName="Kenya" WorldRegion="Eastern Africa"/>
+    <model:Country EnglishName="Kiribati" FrenchName="Kiribati" LocalName="Kiribati, Kiribas" WorldRegion="Micronesia, Oceania"/>
+    <model:Country EnglishName="Korea, Democratic People's Rep. (North Korea)" FrenchName="Corée, République Populaire Démocratique de" LocalName="Choson" WorldRegion="Eastern Asia"/>
+    <model:Country EnglishName="Korea, Republic of (South Korea)" FrenchName="Corée, République de" LocalName="Han-guk" WorldRegion="Eastern Asia"/>
+    <model:Country EnglishName="Kosovo" FrenchName="Kosovo" LocalName="Albanian: Kosova ou Kosovë,Serbian: Kosovo, Косово" WorldRegion="Southern Europe"/>
+    <model:Country EnglishName="Kuwait" FrenchName="Koweït" LocalName="Al Kuwayt" WorldRegion="Middle East, Western Asia"/>
+    <model:Country EnglishName="Kyrgyzstan" FrenchName="Kirghizistan" LocalName="Kyrgyz Respublikasy" WorldRegion="Central Asia"/>
+    <model:Country EnglishName="Lao, People's Democratic Republic" FrenchName="Lao, République Démocratique Populaire" LocalName="Lao" WorldRegion="South-East Asia"/>
+    <model:Country EnglishName="Latvia" FrenchName="Lettonie" LocalName="Latvija" WorldRegion="Northern Europe"/>
+    <model:Country EnglishName="Lebanon" FrenchName="Liban" LocalName="Lubnan" WorldRegion="Middle East, Western Asia"/>
+    <model:Country EnglishName="Lesotho" FrenchName="Lesotho" LocalName="Lesotho" WorldRegion="Southern Africa"/>
+    <model:Country EnglishName="Liberia" FrenchName="Libéria" LocalName="Liberia" WorldRegion="Western Africa"/>
+    <model:Country EnglishName="Libya" FrenchName="Libye" LocalName="Libiyah" WorldRegion="Northern Africa"/>
+    <model:Country EnglishName="Liechtenstein" FrenchName="Liechtenstein" LocalName="Liechtenstein" WorldRegion="Western Europe"/>
+    <model:Country EnglishName="Lithuania" FrenchName="Lituanie" LocalName="Lietuva" WorldRegion="Northern Europe"/>
+    <model:Country EnglishName="Luxembourg" FrenchName="Luxembourg" LocalName="Luxembourg, Letzebuerg" WorldRegion="Western Europe"/>
+    <model:Country EnglishName="Macau" FrenchName="Macao" LocalName="Aomen" WorldRegion="Eastern Asia"/>
+    <model:Country EnglishName="Macedonia, Rep. of" FrenchName="Macédoine, l'ex-République Yougoslave de" LocalName="Makedonija" WorldRegion="Southern Europe"/>
+    <model:Country EnglishName="Madagascar" FrenchName="Madagascar" LocalName="Madagascar" WorldRegion="Eastern Africa"/>
+    <model:Country EnglishName="Malawi" FrenchName="Malawi" LocalName="Malawi" WorldRegion="Eastern Africa"/>
+    <model:Country EnglishName="Malaysia" FrenchName="Malaisie" LocalName="Malaysia" WorldRegion="Southeast Asia"/>
+    <model:Country EnglishName="Maldives" FrenchName="Maldives" LocalName="Dhivehi Raajje" WorldRegion="South-Central Asia"/>
+    <model:Country EnglishName="Mali" FrenchName="Mali" LocalName="Mali" WorldRegion="Western Africa"/>
+    <model:Country EnglishName="Malta" FrenchName="Malte" LocalName="Malta" WorldRegion="Southern Europe"/>
+    <model:Country EnglishName="Marshall Islands" FrenchName="Îles Marshall" LocalName="Marshall Islands" WorldRegion="Micronesia, Oceania"/>
+    <model:Country EnglishName="Martinique" FrenchName="Martinique" LocalName="Martinique" WorldRegion="Lesser Antilles, Caribbean"/>
+    <model:Country EnglishName="Mauritania" FrenchName="Mauritanie" LocalName="Muritaniyah" WorldRegion="Western Africa"/>
+    <model:Country EnglishName="Mauritius" FrenchName="Île Maurice" LocalName="Mauritius" WorldRegion="Eastern Africa"/>
+    <model:Country EnglishName="Mayotte" FrenchName="Mayotte" LocalName="Mayotte" WorldRegion="Eastern Africa"/>
+    <model:Country EnglishName="Mexico" FrenchName="Mexique" LocalName="Estados Unidos Mexicanos" WorldRegion="North America"/>
+    <model:Country EnglishName="Micronesia, Federal States of" FrenchName="États Fédérés de Micronésie" LocalName="Micronesia" WorldRegion="Micronesia, Oceania"/>
+    <model:Country EnglishName="Moldova, Republic of" FrenchName="Moldova, République de" LocalName="Moldova" WorldRegion="Eastern Europe"/>
+    <model:Country EnglishName="Monaco" FrenchName="Monaco" LocalName="Monaco" WorldRegion="Southern Europe"/>
+    <model:Country EnglishName="Mongolia" FrenchName="Mongolie" LocalName="Mongol Uls" WorldRegion="Eastern Asia"/>
+    <model:Country EnglishName="Montenegro" FrenchName="Monténégro" LocalName="Crna Gora" WorldRegion="Southern Europe"/>
+    <model:Country EnglishName="Montserrat" FrenchName="Montserrat" LocalName="Montserrat" WorldRegion="Lesser Antilles, Caribbean"/>
+    <model:Country EnglishName="Morocco" FrenchName="Maroc" LocalName="Al Maghrib" WorldRegion="Northern Africa"/>
+    <model:Country EnglishName="Mozambique" FrenchName="Mozambique" LocalName="Mocambique" WorldRegion="Eastern Africa"/>
+    <model:Country EnglishName="Myanmar, Burma" FrenchName="Myanmar, Birmanie" LocalName="Myanma Naingngandaw" WorldRegion="Southeast Asia"/>
+    <model:Country EnglishName="Namibia" FrenchName="Namibie" LocalName="Namibia" WorldRegion="Southern Africa"/>
+    <model:Country EnglishName="Nauru" FrenchName="Nauru" LocalName="Nauru" WorldRegion="Micronesia, Oceania"/>
+    <model:Country EnglishName="Nepal" FrenchName="Népal" LocalName="Nepal" WorldRegion="South-Central Asia"/>
+    <model:Country EnglishName="Netherlands" FrenchName="Pays-Bas" LocalName="Nederland/Holland" WorldRegion="Western Europe"/>
+    <model:Country EnglishName="Netherlands Antilles" FrenchName="Antilles Néerlandaises" LocalName="Nederlandse Antillen" WorldRegion="Caribbean"/>
+    <model:Country EnglishName="New Caledonia" FrenchName="Nouvelle-Calédonie" LocalName="Nouvelle-Calédonie" WorldRegion="Melanesia, Oceania"/>
+    <model:Country EnglishName="New Zealand" FrenchName="Nouvelle-Zélande" LocalName="Aotearoa" WorldRegion="Oceania; Australia"/>
+    <model:Country EnglishName="Nicaragua" FrenchName="Nicaragua" LocalName="Nicaragua" WorldRegion="Central America"/>
+    <model:Country EnglishName="Niger" FrenchName="Niger" LocalName="Niger" WorldRegion="Western Africa"/>
+    <model:Country EnglishName="Nigeria" FrenchName="Nigéria" LocalName="Nigeria" WorldRegion="Western Africa"/>
+    <model:Country EnglishName="Niue" FrenchName="Nioué" LocalName="Niue" WorldRegion="Polynesia, Oceania"/>
+    <model:Country EnglishName="Northern Mariana Islands" FrenchName="Îles Mariannes du Nord" LocalName="Northern Mariana Islands" WorldRegion="Micronesia, Oceania"/>
+    <model:Country EnglishName="Norway" FrenchName="Norvège" LocalName="Norge" WorldRegion="Northern Europe"/>
+    <model:Country EnglishName="Oman" FrenchName="Oman" LocalName="Saltanat Uman" WorldRegion="Middle East"/>
+    <model:Country EnglishName="Pakistan" FrenchName="Pakistan" LocalName="Pakistan" WorldRegion="South-Central Asia"/>
+    <model:Country EnglishName="Palau" FrenchName="Palaos" LocalName="Belau" WorldRegion="Micronesia, Oceania"/>
+    <model:Country EnglishName="Palestinian territories" FrenchName="Autorité Nationale Palestinienne" LocalName="Filastin" WorldRegion="Middle East, Western Asia"/>
+    <model:Country EnglishName="Panama" FrenchName="Panama" LocalName="Panama" WorldRegion="Central America"/>
+    <model:Country EnglishName="Papua New Guinea" FrenchName="Papouasie-Nouvelle-Guinée" LocalName="Papua Niu Gini" WorldRegion="Maritime Southeast Asia, Melanesia, Oceania"/>
+    <model:Country EnglishName="Paraguay" FrenchName="Paraguay" LocalName="Paraguay" WorldRegion="Central South America"/>
+    <model:Country EnglishName="Peru" FrenchName="Pérou" LocalName="Peru" WorldRegion="Western South America"/>
+    <model:Country EnglishName="Philippines" FrenchName="Philippines" LocalName="Pilipinas" WorldRegion="Southeast Asia"/>
+    <model:Country EnglishName="Pitcairn Island" FrenchName="Pitcairn" LocalName="Pitcairn Island" WorldRegion="Polynesia, Oceania"/>
+    <model:Country EnglishName="Poland" FrenchName="Pologne" LocalName="Polska" WorldRegion="Eastern Europe"/>
+    <model:Country EnglishName="Portugal" FrenchName="Portugal" LocalName="Portugal" WorldRegion="Southern Europe"/>
+    <model:Country EnglishName="Puerto Rico" FrenchName="Porto Rico" LocalName="Puerto Rico" WorldRegion="Greater Antilles, Caribbean"/>
+    <model:Country EnglishName="Qatar" FrenchName="Qatar" LocalName="Dawlat Qatar" WorldRegion="Arabian Peninsula, Middle East"/>
+    <model:Country EnglishName="Reunion Island" FrenchName="Ile de la Réunion" LocalName="Ile de la Réunion" WorldRegion="Eastern Africa"/>
+    <model:Country EnglishName="Romania" FrenchName="Roumanie" LocalName="Romania" WorldRegion="Eastern Europe"/>
+    <model:Country EnglishName="Russian Federation" FrenchName="Russie, Fédération de" LocalName="Rossiya" WorldRegion="Eastern Europe - Northern Asia"/>
+    <model:Country EnglishName="Rwanda" FrenchName="Rwanda" LocalName="Rwanda" WorldRegion="Eastern Africa, African Great Lakes"/>
+    <model:Country EnglishName="Saint Kitts and Nevis" FrenchName="Saint-Kitts-et-Nevis" WorldRegion="Lesser Antilles, Caribbean"/>
+    <model:Country EnglishName="Saint Lucia" FrenchName="Sainte-Lucie" LocalName="Saint Lucia" WorldRegion="Lesser Antilles, Caribbean"/>
+    <model:Country EnglishName="Saint Vincent and the Grenadines" FrenchName="Saint-Vincent-et-les Grenadines" WorldRegion="Lesser Antilles, Caribbean"/>
+    <model:Country EnglishName="Samoa" FrenchName="Samoa" LocalName="Samoa" WorldRegion="Polynesia, Oceania"/>
+    <model:Country EnglishName="San Marino" FrenchName="Saint-Marin" LocalName="San Marino" WorldRegion="Southern Europe within Italy"/>
+    <model:Country EnglishName="Sao Tome and Principe" FrenchName="Sao Tomé-et-Principe" LocalName="Sao Tome e Principe" WorldRegion="Central Africa"/>
+    <model:Country EnglishName="Saudi Arabia" FrenchName="Arabie Saoudite" LocalName="Al Arabiyah as Suudiyah" WorldRegion="Arabian Peninsula, Middle East"/>
+    <model:Country EnglishName="Senegal" FrenchName="Sénégal" LocalName="Senegal" WorldRegion="Western Africa"/>
+    <model:Country EnglishName="Serbia" FrenchName="Serbie" LocalName="Srbija" WorldRegion="Southern Europe"/>
+    <model:Country EnglishName="Seychelles" FrenchName="Seychelles" LocalName="Seychelles" WorldRegion="Eastern Africa"/>
+    <model:Country EnglishName="Sierra Leone" FrenchName="Sierra Leone" LocalName="Sierra Leone" WorldRegion="Western Africa"/>
+    <model:Country EnglishName="Singapore" FrenchName="Singapour" LocalName="Singapore" WorldRegion="Southeast Asia"/>
+    <model:Country EnglishName="Slovakia (Slovak Republic)" FrenchName="Slovaquie" LocalName="Slovensko" WorldRegion="Eastern Europe"/>
+    <model:Country EnglishName="Slovenia" FrenchName="Slovénie" LocalName="Slovenija" WorldRegion="Southern Europe"/>
+    <model:Country EnglishName="Solomon Islands" FrenchName="Salomon, Îles" LocalName="Solomon Islands" WorldRegion="Melanesia, Oceania"/>
+    <model:Country EnglishName="Somalia" FrenchName="Somalie" LocalName="Somalia" WorldRegion="Eastern Africa"/>
+    <model:Country EnglishName="South Africa" FrenchName="Afrique du Sud" LocalName="South Africa" WorldRegion="Southern Africa"/>
+    <model:Country EnglishName="South Sudan" FrenchName="Soudan du Sud" LocalName="South Sudan" WorldRegion="East-Central Africa"/>
+    <model:Country EnglishName="Spain" FrenchName="Espagne" LocalName="España" WorldRegion="Southern Europe"/>
+    <model:Country EnglishName="Sri Lanka" FrenchName="Sri Lanka" LocalName="Sri Lanka" WorldRegion="South-Central Asia"/>
+    <model:Country EnglishName="Sudan" FrenchName="Soudan" LocalName="As-Sudan" WorldRegion="Northern Africa"/>
+    <model:Country EnglishName="Suriname" FrenchName="Suriname" LocalName="Suriname" WorldRegion="North-Eastern South America"/>
+    <model:Country EnglishName="Swaziland" FrenchName="Swaziland" LocalName="Swaziland" WorldRegion="Southern Africa"/>
+    <model:Country EnglishName="Sweden" FrenchName="Suède" LocalName="Sverige" WorldRegion="Northern Europe"/>
+    <model:Country EnglishName="Switzerland" FrenchName="Suisse" LocalName="Schweiz (German), Suisse (French), Svizzera (Italian)" WorldRegion="Western Europe"/>
+    <model:Country EnglishName="Syria, Syrian Arab Republic" FrenchName="Syrienne, République Arabe" LocalName="Suriyah" WorldRegion="Middle East, Western Asia"/>
+    <model:Country EnglishName="Taiwan (Republic of China)" FrenchName="Taïwan, Province de Chine" LocalName="T'ai-wan" WorldRegion="Eastern Asia"/>
+    <model:Country EnglishName="Tajikistan" FrenchName="Tadjikistan" LocalName="Jumhurii Tojikiston" WorldRegion="Central Asia"/>
+    <model:Country EnglishName="Tanzania; officially the United Republic of Tanzania" FrenchName="Tanzanie, République-Unie de" LocalName="Jamhuri ya Muungano wa Tanzania" WorldRegion="Eastern Africa"/>
+    <model:Country EnglishName="Thailand" FrenchName="Thaïlande" LocalName="Prathet Thai" WorldRegion="South-East Asia"/>
+    <model:Country EnglishName="Tibet" FrenchName="Tibet" LocalName="Bod" WorldRegion="South-Central Asia"/>
+    <model:Country EnglishName="Timor-Leste (East Timor)" FrenchName="Timor-Leste (Timor Oriental)" LocalName="Timor" WorldRegion="Maritime South-East Asia"/>
+    <model:Country EnglishName="Togo" FrenchName="Togo" LocalName="Republique Togolaise" WorldRegion="Western Africa"/>
+    <model:Country EnglishName="Tokelau" FrenchName="Tokelau" LocalName="Tokelau" WorldRegion="Oceania/Australia"/>
+    <model:Country EnglishName="Tonga" FrenchName="Tonga" LocalName="Tonga" WorldRegion="Polynesia, Oceania"/>
+    <model:Country EnglishName="Trinidad and Tobago" FrenchName="Trinité-et-Tobago" LocalName="Trinidad, Tobago" WorldRegion="Northern South America, Caribbean"/>
+    <model:Country EnglishName="Tunisia" FrenchName="Tunisie" LocalName="Tunis" WorldRegion="Northern Africa"/>
+    <model:Country EnglishName="Turkey" FrenchName="Turquie" LocalName="Turkiye" WorldRegion="Southeastern Europe, Western Asia"/>
+    <model:Country EnglishName="Turkmenistan" FrenchName="Turkménistan" LocalName="Turkmenistan" WorldRegion="Central Asia"/>
+    <model:Country EnglishName="Turks and Caicos Islands" FrenchName="Turks et Caïques, Îles" LocalName="Turks and Caicos Islands" WorldRegion="Caribbean, parts of the Bahamas island chain."/>
+    <model:Country EnglishName="Tuvalu" FrenchName="Tuvalu" LocalName="Tuvalu" WorldRegion="Polynesia, Oceania"/>
+    <model:Country EnglishName="Uganda" FrenchName="Ouganda" LocalName="Uganda" WorldRegion="Eastern Africa"/>
+    <model:Country EnglishName="Ukraine" FrenchName="Ukraine" LocalName="Ukrayina" WorldRegion="Eastern Europe"/>
+    <model:Country EnglishName="United Arab Emirates" FrenchName="Émirats Arabes Unis" LocalName="Al Imarat al Arabiyah al Muttahidah" WorldRegion="Arabian Peninsula, Middle East"/>
+    <model:Country EnglishName="United Kingdom" FrenchName="Royaume-Uni" LocalName="United Kingdom" WorldRegion="Northern Europe"/>
+    <model:Country EnglishName="United States" FrenchName="États-Unis" LocalName="United States" WorldRegion="North America"/>
+    <model:Country EnglishName="Uruguay" FrenchName="Uruguay" LocalName="Republica Oriental del Uruguay" WorldRegion="Central East South America"/>
+    <model:Country EnglishName="Uzbekistan" FrenchName="Ouzbékistan" LocalName="Uzbekiston Respublikasi" WorldRegion="Central Asia"/>
+    <model:Country EnglishName="Vanuatu" FrenchName="Vanuatu" LocalName="Vanuatu" WorldRegion="Melanesia, Oceania"/>
+    <model:Country EnglishName="Vatican City State (Holy See)" FrenchName="Saint-Siège (État de la Cité du Vatican)" LocalName="Status Civitatis Vaticanæ" WorldRegion="Southern Europe within Italy"/>
+    <model:Country EnglishName="Venezuela" FrenchName="Venezuela" LocalName="Venezuela" WorldRegion="Northern South America"/>
+    <model:Country EnglishName="Vietnam" FrenchName="Viêt Nam" LocalName="Viet Nam" WorldRegion="South-East Asia"/>
+    <model:Country EnglishName="Virgin Islands (British)" FrenchName="Îles Vierges Britanniques" WorldRegion="Lesser Antilles, Caribbean"/>
+    <model:Country EnglishName="Virgin Islands (U.S.)" FrenchName="Îles Vierges des États-Unis" LocalName="Virgin Islands" WorldRegion="Lesser Antilles, Caribbean"/>
+    <model:Country EnglishName="Wallis and Futuna Islands" FrenchName="Wallis et Futuna" LocalName="Wallis et Futuna" WorldRegion="Polynesia, Oceania"/>
+    <model:Country EnglishName="Western Sahara" FrenchName="Sahara Occidental" LocalName="Aṣ-Ṣaḥrā’ al-Gharbīyah" WorldRegion="Northern Africa"/>
+    <model:Country EnglishName="Yemen" FrenchName="Yémen" LocalName="Al Yaman" WorldRegion="Arabian Peninsula, Middle East"/>
+    <model:Country EnglishName="Zambia" FrenchName="Zambie" LocalName="Zambia" WorldRegion="Eastern Africa"/>
+    <model:Country EnglishName="Zimbabwe" FrenchName="Zimbabwe" LocalName="Zimbabwe" WorldRegion="Eastern Africa"/>
+  </local:MainViewModel.Countries>
+</local:MainViewModel>

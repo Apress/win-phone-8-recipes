@@ -1,0 +1,12 @@
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe.DataProvider\Bin\Debug\InspireMe.DataProvider.dll
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe.DataProvider\Bin\Debug\InspireMe.DataProvider.pdb
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe.DataProvider\obj\Debug\InspireMe.DataProvider.dll
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMe.DataProvider\obj\Debug\InspireMe.DataProvider.pdb
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMe.DataProvider\obj\Debug\InspireMe.DataProvider.dll
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMe.DataProvider\obj\Debug\InspireMe.DataProvider.pdb
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMe.DataProvider\Bin\Debug\InspireMe.DataProvider.dll
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMe.DataProvider\Bin\Debug\InspireMe.DataProvider.pdb
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeFinished\InspireMe.DataProvider\Bin\Debug\InspireMe.DataProvider.dll
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeFinished\InspireMe.DataProvider\Bin\Debug\InspireMe.DataProvider.pdb
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeFinished\InspireMe.DataProvider\obj\Debug\InspireMe.DataProvider.dll
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeFinished\InspireMe.DataProvider\obj\Debug\InspireMe.DataProvider.pdb

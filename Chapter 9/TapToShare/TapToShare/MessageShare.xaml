@@ -1,0 +1,55 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="TapToShare.MessageShare"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="TAP TO SHARE" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="message exchange" Margin="9,-7,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}"/>
+        </StackPanel>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition  Height="Auto" />
+                <RowDefinition  Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition  Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <TextBox Name="messageToSend" Height="100" VerticalAlignment="Top" AcceptsReturn="True" />
+            <Button Grid.Row="1" Content="publish" Tap="Publish_Tap" />
+            <Button Grid.Row="2" Content="subscribe" Tap="Subscribe_Tap" />
+            <TextBlock Grid.Row="3" 
+                       Text="{Binding LastReceivedMessage, StringFormat='Received message: {0}'}" 
+                       Style="{StaticResource PhoneTextLargeStyle}"/>
+            <TextBlock Grid.Row="4" 
+                       TextWrapping="Wrap"
+                       Text="{Binding SentMessage, StringFormat='Sent message: {0}'}" 
+                       Style="{StaticResource PhoneTextLargeStyle}"/>
+            <TextBlock Grid.Row="5" 
+                       TextWrapping="Wrap"
+                       Text="{Binding StatusMessage, StringFormat='Status: {0}'}" 
+                       Style="{StaticResource PhoneTextLargeStyle}"/>
+        </Grid>
+
+    </Grid>
+
+</phone:PhoneApplicationPage>

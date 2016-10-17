@@ -1,0 +1,8 @@
+D:\Apress\APress\Chapter 5\Source\WeatherAlerts\WeatherAlerts.ViewModel\Bin\Debug\WeatherAlerts.DataProvider.dll
+D:\Apress\APress\Chapter 5\Source\WeatherAlerts\WeatherAlerts.ViewModel\Bin\Debug\WeatherAlerts.DataProvider.pdb
+D:\Apress\APress\Chapter 5\Source\WeatherAlerts\WeatherAlerts.ViewModel\obj\Debug\WeatherAlerts.DataProvider.dll
+D:\Apress\APress\Chapter 5\Source\WeatherAlerts\WeatherAlerts.ViewModel\obj\Debug\WeatherAlerts.DataProvider.pdb
+D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts.DataProvider\Bin\Debug\WeatherAlerts.DataProvider.dll
+D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts.DataProvider\Bin\Debug\WeatherAlerts.DataProvider.pdb
+D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts.DataProvider\obj\Debug\WeatherAlerts.DataProvider.dll
+D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts.DataProvider\obj\Debug\WeatherAlerts.DataProvider.pdb

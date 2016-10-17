@@ -1,0 +1,15 @@
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMeScheduledTaskAgent\obj\Debug\InspireMeScheduledTaskAgent.csprojResolveAssemblyReference.cache
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMeScheduledTaskAgent\Bin\Debug\InspireMeScheduledTaskAgent.dll
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMeScheduledTaskAgent\Bin\Debug\InspireMeScheduledTaskAgent.pdb
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMeScheduledTaskAgent\Bin\Debug\InspirMe.ViewModel.dll
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMeScheduledTaskAgent\Bin\Debug\InspirMe.ViewModel.pdb
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMeScheduledTaskAgent\obj\Debug\InspireMeScheduledTaskAgent.dll
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMeScheduledTaskAgent\obj\Debug\InspireMeScheduledTaskAgent.pdb
+D:\Apress\APress\Chapter 5\Source\InspireMe\InspireMeScheduledTaskAgent\Bin\Debug\Quotes.xml
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMeScheduledTaskAgent\obj\Debug\InspireMeScheduledTaskAgent.csprojResolveAssemblyReference.cache
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMeScheduledTaskAgent\obj\Debug\InspireMeScheduledTaskAgent.dll
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMeScheduledTaskAgent\Bin\Debug\InspireMeScheduledTaskAgent.dll
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMeScheduledTaskAgent\Bin\Debug\InspireMeScheduledTaskAgent.pdb
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMeScheduledTaskAgent\Bin\Debug\InspireMe.DataProvider.dll
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMeScheduledTaskAgent\Bin\Debug\InspireMe.DataProvider.pdb
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMeScheduledTaskAgent\obj\Debug\InspireMeScheduledTaskAgent.pdb

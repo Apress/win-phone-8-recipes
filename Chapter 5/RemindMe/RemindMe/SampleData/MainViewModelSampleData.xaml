@@ -1,0 +1,12 @@
+﻿<vm:MainViewModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:RemindMe.ViewModels">
+
+    <vm:MainViewModel.Items>
+        <vm:ItemViewModel ID="1" Description="cable bill" DueDate="2013/03/11"  />
+        <vm:ItemViewModel ID="2" Description="mortgage" DueDate="2013/03/12"  />
+        <vm:ItemViewModel ID="3" Description="phone bill" DueDate="2013/03/13" />
+    </vm:MainViewModel.Items>
+
+</vm:MainViewModel>

@@ -1,0 +1,14 @@
+D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlertScheduledTaskAgent\Bin\Debug\WeatherAlerts.Agent.dll
+D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlertScheduledTaskAgent\Bin\Debug\WeatherAlerts.Agent.pdb
+D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlertScheduledTaskAgent\Bin\Debug\WeatherAlerts.DataProvider.dll
+D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlertScheduledTaskAgent\Bin\Debug\WeatherAlerts.DataProvider.pdb
+D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlertScheduledTaskAgent\obj\Debug\WeatherAlerts.Agent.dll
+D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlertScheduledTaskAgent\obj\Debug\WeatherAlerts.Agent.pdb
+D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlertScheduledTaskAgent\obj\Debug\WeatherAlerts.Agent.csprojResolveAssemblyReference.cache
+D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts.Agent\Bin\Debug\WeatherAlerts.Agent.dll
+D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts.Agent\Bin\Debug\WeatherAlerts.Agent.pdb
+D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts.Agent\Bin\Debug\WeatherAlerts.DataProvider.dll
+D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts.Agent\Bin\Debug\WeatherAlerts.DataProvider.pdb
+D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts.Agent\obj\Debug\WeatherAlerts.Agent.csprojResolveAssemblyReference.cache
+D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts.Agent\obj\Debug\WeatherAlerts.Agent.dll
+D:\Apress\APress\Chapter 5\Source\WeatherAlertsFinished\WeatherAlerts.Agent\obj\Debug\WeatherAlerts.Agent.pdb

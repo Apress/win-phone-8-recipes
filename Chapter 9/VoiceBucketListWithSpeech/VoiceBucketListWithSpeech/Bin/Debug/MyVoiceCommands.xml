@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.0">
+  <CommandSet xml:lang="en-US">
+    <CommandPrefix>Voice Bucket List</CommandPrefix>
+    <Example> view my movie bucket list </Example>
+    <Command Name="ViewMovieList">
+      <Example> view my movies </Example>
+      <ListenFor> [and] view [my] movies </ListenFor>
+      <ListenFor> [and] manage [my] movies </ListenFor>
+      <Feedback> Loading your movie bucket list... </Feedback>
+      <Navigate />
+    </Command>
+    <Command Name="AddMovie">
+      <Example> add a new movie </Example>
+      <ListenFor>  [and] add [a] [new] movie </ListenFor>
+      <Feedback> Loading the page so you can add a new movie to your bucket list... </Feedback>
+      <Navigate Target="AddBucketListItem.xaml" />
+    </Command>
+    <Command Name="ViewTravelList">
+      <Example> view my places to go </Example>
+      <ListenFor> [and] view [my] places to go </ListenFor>
+      <ListenFor> [and] manage [my] places to go </ListenFor>
+      <Feedback> Loading your places to go bucket list... </Feedback>
+      <Navigate />
+    </Command>
+    <Command Name="AddTravel">
+      <Example> add a new place to go </Example>
+      <ListenFor>  [and] add [a] [new] place to go </ListenFor>
+      <Feedback> So, you want to add a new place to your bucket list? Ok, let's do this... </Feedback>
+      <Navigate Target="AddBucketListItem.xaml" />
+    </Command>
+    <Command Name="ViewRestaurantList">
+      <Example> view my places to eat </Example>
+      <ListenFor> [and] view [my] places to eat </ListenFor>
+      <ListenFor> [and] manage [my] places to eat </ListenFor>
+      <Feedback> Loading the places you want to go to try out some grub... </Feedback>
+      <Navigate />
+    </Command>
+    <Command Name="AddRestaurant">
+      <Example> add a new place to eat </Example>
+      <ListenFor>  [and] add [a] [new] place to eat </ListenFor>
+      <Feedback> Time to add a new place to eat to the bucket list... </Feedback>
+      <Navigate Target="AddBucketListItem.xaml" />
+    </Command>
+  </CommandSet>
+</VoiceCommands>

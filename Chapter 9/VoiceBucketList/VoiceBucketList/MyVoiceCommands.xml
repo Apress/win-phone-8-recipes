@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.0">
+  <CommandSet xml:lang="en-US">
+    <CommandPrefix>Voice Bucket List</CommandPrefix>
+    <Example> view my movie bucket list </Example>
+    <Command Name="ViewMovieList">
+      <Example> view my movie bucket list </Example>
+      <ListenFor> [and] view [my] movie [bucket] list </ListenFor>
+      <ListenFor> [and] manage [my] movie [bucket] list </ListenFor>
+      <Feedback> Loading your movie bucket list... </Feedback>
+      <Navigate />
+    </Command>
+    <Command Name="AddMovie">
+      <Example> add a new movie to the bucket list </Example>
+      <ListenFor>  [and] add [a] [new] movie to the [bucket] list </ListenFor>
+      <Feedback> Loading the page so you can add a new movie to your bucket list... </Feedback>
+      <Navigate Target="AddBucketListItem.xaml" />
+    </Command>
+    <Command Name="ViewTravelList">
+      <Example> view my places to travel bucket list </Example>
+      <ListenFor> [and] view [my] places to travel [bucket] list </ListenFor>
+      <ListenFor> [and] manage [my] places to travel [bucket] list </ListenFor>
+      <Feedback> Loading your places to travel bucket list... </Feedback>
+      <Navigate />
+    </Command>
+    <Command Name="AddTravel">
+      <Example> add a new place to travel to the bucket list </Example>
+      <ListenFor>  [and] add [a] [new] place [to] [travel] to the [bucket] list </ListenFor>
+      <Feedback> So, you want to add a new place to your bucket list? Ok, let's do this... </Feedback>
+      <Navigate Target="AddBucketListItem.xaml" />
+    </Command>
+    <Command Name="ViewRestaurantList">
+      <Example> view my places to travel bucket list </Example>
+      <ListenFor> [and] view [my] places to travel [bucket] list </ListenFor>
+      <ListenFor> [and] manage [my] places to travel [bucket] list </ListenFor>
+      <Feedback> Loading your places to travel bucket list... </Feedback>
+      <Navigate />
+    </Command>
+    <Command Name="AddRestaurant">
+      <Example> add a new restaurant to the bucket list </Example>
+      <ListenFor>  [and] add [a] [new] restaurant to the [bucket] list </ListenFor>
+      <Feedback> Time to add a new place to eat to the bucket list... </Feedback>
+      <Navigate Target="AddBucketListItem.xaml" />
+    </Command>
+  </CommandSet>
+</VoiceCommands>

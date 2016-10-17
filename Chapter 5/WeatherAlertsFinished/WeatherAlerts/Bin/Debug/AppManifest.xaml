@@ -1,0 +1,7 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="WeatherAlerts" EntryPointType="WeatherAlerts.App" RuntimeVersion="4.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="WeatherAlerts" Source="WeatherAlerts.dll" />
+    <AssemblyPart x:Name="WeatherAlerts.Agent" Source="WeatherAlerts.Agent.dll" />
+    <AssemblyPart x:Name="WeatherAlerts.DataProvider" Source="WeatherAlerts.DataProvider.dll" />
+  </Deployment.Parts>
+</Deployment>

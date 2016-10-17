@@ -1,0 +1,21 @@
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMeScheduledTaskAgent\Bin\Debug\InspireMeScheduledTaskAgent.dll
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMeScheduledTaskAgent\Bin\Debug\InspireMeScheduledTaskAgent.pdb
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMeScheduledTaskAgent\Bin\Debug\InspireMe.DataProvider.dll
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMeScheduledTaskAgent\Bin\Debug\InspireMe.DataProvider.pdb
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMeScheduledTaskAgent\obj\Debug\InspireMe.Agent.csprojResolveAssemblyReference.cache
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMeScheduledTaskAgent\obj\Debug\InspireMeScheduledTaskAgent.dll
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMeScheduledTaskAgent\obj\Debug\InspireMeScheduledTaskAgent.pdb
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMe.Agent\Bin\Debug\InspireMe.Agent.dll
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMe.Agent\Bin\Debug\InspireMe.Agent.pdb
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMe.Agent\Bin\Debug\InspireMe.DataProvider.dll
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMe.Agent\Bin\Debug\InspireMe.DataProvider.pdb
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMe.Agent\obj\Debug\InspireMe.Agent.csprojResolveAssemblyReference.cache
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMe.Agent\obj\Debug\InspireMe.Agent.dll
+D:\Apress\APress\Chapter 5\Source\InspireMeFinished\InspireMe.Agent\obj\Debug\InspireMe.Agent.pdb
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeFinished\InspireMe.Agent\Bin\Debug\InspireMe.Agent.dll
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeFinished\InspireMe.Agent\Bin\Debug\InspireMe.Agent.pdb
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeFinished\InspireMe.Agent\Bin\Debug\InspireMe.DataProvider.dll
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeFinished\InspireMe.Agent\Bin\Debug\InspireMe.DataProvider.pdb
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeFinished\InspireMe.Agent\obj\Debug\InspireMe.Agent.csprojResolveAssemblyReference.cache
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeFinished\InspireMe.Agent\obj\Debug\InspireMe.Agent.dll
+C:\Users\Lori\Documents\Apress\9781430259022_Lalonde_Ch05_BackgroundAgents\9781430259022_Lalonde_Ch05_Source\InspireMeFinished\InspireMe.Agent\obj\Debug\InspireMe.Agent.pdb

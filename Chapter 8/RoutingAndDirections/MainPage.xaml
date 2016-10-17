@@ -1,0 +1,176 @@
+﻿<phone:PhoneApplicationPage 
+    FontFamily="{StaticResource PhoneFontFamilyNormal}" 
+    FontSize="{StaticResource PhoneFontSizeNormal}" 
+    Foreground="{StaticResource PhoneForegroundBrush}" 
+    mc:Ignorable="d" 
+    Orientation="Portrait" 
+    shell:SystemTray.IsVisible="True" 
+    SupportedOrientations="Portrait" 
+    x:Class="RoutingAndDirections.MainPage" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:controls="clr-namespace:Microsoft.Phone.Maps.Controls;assembly=Microsoft.Phone.Maps" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:mapControls="clr-namespace:Microsoft.Phone.Maps.Controls;assembly=Microsoft.Phone.Maps" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone" 
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone" 
+    xmlns:toolKit="clr-namespace:Microsoft.Phone.Maps.Toolkit;assembly=Microsoft.Phone.Controls.Toolkit" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar>
+            <shell:ApplicationBarIconButton 
+                Click="UpdateLocation" 
+                IconUri="/Assets/AppBar/refresh.png" 
+                Text="refresh" />
+            <shell:ApplicationBarIconButton 
+                Click="RouteClick" 
+                IconUri="/Assets/AppBar/gps.settings.png" 
+                Text="route"/>
+            <shell:ApplicationBarIconButton 
+                Click="LocationSearchClick" 
+                IconUri="/Assets/AppBar/feature.search.png"
+                Text="route"/>
+            
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+    <phone:PhoneApplicationPage.Resources>
+        <phone:JumpListItemBackgroundConverter x:Key="BackgroundConverter"/>
+        <phone:JumpListItemForegroundConverter x:Key="ForegroundConverter"/>
+
+        <DataTemplate x:Name="LocationHeaderTemplate">
+            <Border
+                BorderThickness="1" 
+                Background="{Binding Converter={StaticResource BackgroundConverter}}"
+                HorizontalAlignment="Left">
+                <TextBlock 
+                    Style="{StaticResource PhoneTextNormalStyle}" 
+                    Text="Location Results"/>
+            </Border>
+        </DataTemplate>
+
+        <DataTemplate x:Name="WayPointHeaderTemplate">
+            <Border
+                BorderThickness="1" 
+                Background="{Binding Converter={StaticResource BackgroundConverter}}"
+                HorizontalAlignment="Left">
+                <TextBlock 
+                    Style="{StaticResource PhoneTextNormalStyle}" 
+                    Text="Waypoints"/>
+            </Border>
+        </DataTemplate>
+
+        <DataTemplate x:Name="ManeuversHeaderTemplate">
+            <Border
+                BorderThickness="1" 
+                Background="{Binding Converter={StaticResource BackgroundConverter}}"
+                HorizontalAlignment="Left">
+                <TextBlock 
+                    Style="{StaticResource PhoneTextNormalStyle}" 
+                    Text="Maneuvers"/>
+            </Border>
+        </DataTemplate>
+
+        <DataTemplate x:Name="ListItemTemplate">
+            <TextBlock 
+                Style="{StaticResource PhoneTextNormalStyle}" 
+                Text="{Binding Path=Address}"/>
+        </DataTemplate>
+        <DataTemplate x:Name="MaueverItemTemplate">
+            <TextBlock 
+                Style="{StaticResource PhoneTextNormalStyle}" 
+                Text="{Binding}"/>
+        </DataTemplate>
+        
+        <Style x:Key="LongListSelectorJumpListStyle" TargetType="phone:LongListSelector">
+            <Setter Property="LayoutMode" Value="List" />
+            <Setter Property="Margin" Value="18,12,0,0"/>
+            <Setter Property="ItemTemplate">
+                <Setter.Value>
+                    <DataTemplate>
+                        <Border 
+                            Margin="6" 
+                            Background="{Binding Converter={StaticResource BackgroundConverter}}">
+                            <TextBlock 
+                                Margin="6,0,0,0"
+                                Text="{Binding Key}" 
+                                Style="{StaticResource JumpListAlphabetStyle}"/>
+                        </Border>
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <DataTemplate x:Name="ManeuverHeaderTemplate">
+            <Border
+                BorderThickness="1" 
+                Background="{Binding Converter={StaticResource BackgroundConverter}}">
+                <TextBlock
+                    Foreground="{Binding Converter={StaticResource ForegroundConverter}}"
+                    Text="{Binding Key}" 
+                    Style="{StaticResource LongListSelectorGroupHeaderStyle}"/>
+            </Border>
+        </DataTemplate>
+
+    </phone:PhoneApplicationPage.Resources>
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="WINDOWS PHONE 8 RECIPES" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0"/>
+            <TextBlock Text="there and back" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBox 
+                    x:Name="locationSearchText"
+                    TextWrapping="Wrap" />
+            </Grid>
+            <phone:LongListSelector 
+                Grid.Row="1" 
+                IsGroupingEnabled="False" 
+                ItemsSource="{Binding Path=LocationItems}" 
+                ItemTemplate="{StaticResource ListItemTemplate}" 
+                ListHeaderTemplate="{StaticResource LocationHeaderTemplate}" 
+                SelectionChanged="LocationListSelectionChanged" 
+                Visibility="{Binding Path=SetUpListVisibility}" 
+                x:Name="locationList">
+            </phone:LongListSelector>
+            <phone:LongListSelector 
+                Grid.Row="2" 
+                IsGroupingEnabled="False" 
+                ItemsSource="{Binding Path=WayPoints}" 
+                ItemTemplate="{StaticResource ListItemTemplate}" 
+                ListHeaderTemplate="{StaticResource WayPointHeaderTemplate}" 
+                Visibility="{Binding Path=SetUpListVisibility}">
+            </phone:LongListSelector>
+            <phone:LongListSelector 
+                Grid.Row="3" 
+                IsGroupingEnabled="True" 
+                ItemTemplate="{StaticResource MaueverItemTemplate}"
+                ItemsSource="{Binding Path=Maneuvers}" 
+                GroupHeaderTemplate="{StaticResource ManeuverHeaderTemplate}"
+                ListHeaderTemplate="{StaticResource ManeuversHeaderTemplate}">
+            </phone:LongListSelector>
+
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

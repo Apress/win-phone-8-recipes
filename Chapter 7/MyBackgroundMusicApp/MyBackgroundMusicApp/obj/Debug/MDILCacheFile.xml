@@ -1,0 +1,21 @@
+﻿<xapCache source="D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyBackgroundMusicApp\Bin\Debug\MyBackgroundMusicApp_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="5/1/2013 12:25:28 AM">
+  <file source="D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyBackgroundMusicApp\obj\Debug\MyBackgroundMusicApp.dll" archivePath="MyBackgroundMusicApp.dll" lastWriteTime="5/1/2013 12:25:27 AM" />
+  <file source="D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyBackgroundMusicApp\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="4/29/2013 8:44:49 PM" />
+  <file source="D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyBackgroundMusicApp\Assets\Music\Christmas_Song.mp3" archivePath="Assets\Music\Christmas_Song.mp3" lastWriteTime="4/29/2013 10:40:24 PM" />
+  <file source="D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyBackgroundMusicApp\Assets\Music\Hark_The_Herald_Angels_Sing.mp3" archivePath="Assets\Music\Hark_The_Herald_Angels_Sing.mp3" lastWriteTime="4/29/2013 10:40:24 PM" />
+  <file source="D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyBackgroundMusicApp\Assets\Music\Jingle_Bells.mp3" archivePath="Assets\Music\Jingle_Bells.mp3" lastWriteTime="4/29/2013 10:40:24 PM" />
+  <file source="D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyBackgroundMusicApp\Assets\Music\We_Wish_You_A_Merry_Christmas.mp3" archivePath="Assets\Music\We_Wish_You_A_Merry_Christmas.mp3" lastWriteTime="4/29/2013 10:40:24 PM" />
+  <file source="D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyBackgroundMusicApp\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="4/29/2013 8:44:49 PM" />
+  <file source="D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyBackgroundMusicApp\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="4/29/2013 8:44:49 PM" />
+  <file source="D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyBackgroundMusicApp\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="4/29/2013 8:44:49 PM" />
+  <file source="D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyBackgroundMusicApp\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="4/29/2013 8:44:49 PM" />
+  <file source="D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyBackgroundMusicApp\Assets\transport.ff.png" archivePath="Assets\transport.ff.png" lastWriteTime="4/30/2013 12:01:49 AM" />
+  <file source="D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyBackgroundMusicApp\Assets\transport.pause.png" archivePath="Assets\transport.pause.png" lastWriteTime="4/30/2013 12:01:49 AM" />
+  <file source="D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyBackgroundMusicApp\Assets\transport.play.png" archivePath="Assets\transport.play.png" lastWriteTime="4/30/2013 12:01:49 AM" />
+  <file source="D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyBackgroundMusicApp\Assets\transport.rew.png" archivePath="Assets\transport.rew.png" lastWriteTime="4/30/2013 12:01:49 AM" />
+  <file source="D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyBackgroundMusicApp\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="4/29/2013 10:52:46 PM" />
+  <file source="D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyBackgroundMusicApp\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="4/29/2013 8:44:49 PM" />
+  <file source="D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyBackgroundMusicApp\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="4/29/2013 8:44:49 PM" />
+  <file source="D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyAudioPlaybackAgent\Bin\Debug\MyAudioPlaybackAgent.dll" archivePath="MyAudioPlaybackAgent.dll" lastWriteTime="5/1/2013 12:25:27 AM" />
+  <file source="D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyBackgroundMusicApp\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="5/1/2013 12:25:28 AM" />
+</xapCache>

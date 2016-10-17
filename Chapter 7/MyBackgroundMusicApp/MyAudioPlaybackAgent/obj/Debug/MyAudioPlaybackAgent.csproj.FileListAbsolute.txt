@@ -1,0 +1,4 @@
+D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyAudioPlaybackAgent\Bin\Debug\MyAudioPlaybackAgent.dll
+D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyAudioPlaybackAgent\Bin\Debug\MyAudioPlaybackAgent.pdb
+D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyAudioPlaybackAgent\obj\Debug\MyAudioPlaybackAgent.dll
+D:\Apress\APress\Chapter 7\Source\MyBackgroundMusicApp\MyAudioPlaybackAgent\obj\Debug\MyAudioPlaybackAgent.pdb

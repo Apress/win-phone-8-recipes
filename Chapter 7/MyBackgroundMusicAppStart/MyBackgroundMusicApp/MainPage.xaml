@@ -1,0 +1,92 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="MyBackgroundMusicApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="MY BACKGROUND MUSIC APP" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0"/>
+            <TextBlock Text="holiday cheer" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <TextBlock Text="song list"
+                       Style="{StaticResource PhoneTextExtraLargeStyle}"  />
+            <phone:LongListSelector
+                    Margin="10"      
+                    Grid.Row="1"                
+                    ItemsSource="{Binding Tracks}">
+                <phone:LongListSelector.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <TextBlock Text="{Binding Title}"
+                                       TextWrapping="Wrap" 
+                                       Margin="10,0" 
+                                       Style="{StaticResource PhoneTextExtraLargeStyle}" 
+                                       FontSize="{StaticResource PhoneFontSizeLarge}" />
+                        </Grid>
+                    </DataTemplate>
+                </phone:LongListSelector.ItemTemplate>
+            </phone:LongListSelector>
+            <StackPanel Orientation="Horizontal" 
+                        Grid.Row="2">
+                <Button x:Name="previousTrack" 
+                        Height="100" 
+                        Width="140" 
+                        Tap="previousTrack_Tap">
+                    <Button.Content>
+                        <Image Source="/Assets/dark/transport.rew.png" />
+                    </Button.Content>
+                </Button>
+                <Button x:Name="playTrack" 
+                        Height="100" 
+                        Width="140" 
+                        Tap="playTrack_Tap">
+                    <Button.Content>
+                        <Image Source="/Assets/dark/transport.play.png" />
+                    </Button.Content>
+                </Button>
+                <Button x:Name="nextTrack" 
+                        Height="100" 
+                        Width="140" 
+                        Tap="nextTrack_Tap">
+                    <Button.Content>
+                        <Image Source="/Assets/dark/transport.ff.png" />
+                    </Button.Content>
+                </Button>
+            </StackPanel>
+            <TextBlock x:Name="currentTrack"
+                       Text="{Binding CurrentTrackTitle, 
+                            Mode=TwoWay, 
+                            StringFormat='Now Playing: {0}'}"
+                       Grid.Row="3"
+                       HorizontalAlignment="Left" 
+                       Margin="10" 
+                       VerticalAlignment="Top" 
+                       Style="{StaticResource PhoneTextLargeStyle}"
+                       Width="438" TextWrapping="Wrap" />
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

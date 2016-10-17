@@ -1,0 +1,12 @@
+﻿<xapCache source="C:\Test\WP8\TrafficView\TrafficView\Bin\Release\MyWindowsPhoneApp_Release_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2013-05-18 7:20:32 PM">
+  <file source="C:\Test\WP8\TrafficView\TrafficView\obj\Release\MyWindowsPhoneApp.dll" archivePath="MyWindowsPhoneApp.dll" lastWriteTime="2013-05-18 7:20:32 PM" />
+  <file source="C:\Test\WP8\TrafficView\TrafficView\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="2013-05-18 12:58:40 PM" />
+  <file source="C:\Test\WP8\TrafficView\TrafficView\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="2013-05-18 12:58:40 PM" />
+  <file source="C:\Test\WP8\TrafficView\TrafficView\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="2013-05-18 12:58:40 PM" />
+  <file source="C:\Test\WP8\TrafficView\TrafficView\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="2013-05-18 12:58:40 PM" />
+  <file source="C:\Test\WP8\TrafficView\TrafficView\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="2013-05-18 12:58:40 PM" />
+  <file source="C:\Test\WP8\TrafficView\TrafficView\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2013-05-18 7:20:32 PM" />
+  <file source="C:\Test\WP8\TrafficView\TrafficView\Bin\Release\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="2013-05-18 12:58:40 PM" />
+  <file source="C:\Test\WP8\TrafficView\TrafficView\Bin\Release\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="2013-05-18 12:58:40 PM" />
+  <file source="C:\Test\WP8\TrafficView\TrafficView\Bin\Release\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2013-05-18 7:20:10 PM" />
+</xapCache>
